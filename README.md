@@ -22,7 +22,7 @@ composer install
 
 # Praktikum Laravel C030325048
 
-Proyek ini merupakan proyek praktikum menggunakan framework Laravel.
+praktikum 6
 
 ## About Laravel
 
