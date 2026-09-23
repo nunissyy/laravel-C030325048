@@ -2,14 +2,70 @@
 
 ## Deskripsi
 
-Proyek ini merupakan proyek praktikum Laravel yang digunakan untuk mempelajari dasar-dasar pengembangan aplikasi web menggunakan framework Laravel.
+Proyek ini merupakan proyek praktikum Laravel yang digunakan untuk mempelajari
+dasar-dasar pengembangan aplikasi web menggunakan framework Laravel, meliputi
+Routing & Blade, Controller & Database, CRUD, serta Autentikasi.
 
-## Cara Menjalankan Proyek
+## Teknologi yang Digunakan
 
-1. Install dependency:
+- PHP
+- Laravel
+- MySQL
+- Composer
+- Laragon
+- Git & GitHub
+
+## Instalasi dan Menjalankan Proyek
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/nunissyy/laravel-C030325048.git
+```
+
+2. Masuk ke folder proyek:
+
+```bash
+cd laravel-C030325048
+```
+
+3. Install dependency:
 
 ```bash
 composer install
+```
+
+4. Buat file `.env`:
+
+```bash
+copy .env.example .env
+```
+
+5. Generate application key:
+
+```bash
+php artisan key:generate
+```
+
+6. Atur konfigurasi database pada file `.env`.
+
+7. Jalankan migration:
+
+```bash
+php artisan migrate
+```
+
+8. Jalankan aplikasi:
+
+```bash
+php artisan serve
+```
+
+9. Buka aplikasi melalui browser:
+
+```text
+http://127.0.0.1:8000
+```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
